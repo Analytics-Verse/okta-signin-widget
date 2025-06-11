@@ -69,3 +69,30 @@
   text-align: right;
   padding: 16px;
 }
+
+// Styles for field error states
+.o-form-input.o-form-has-errors .okta-form-input-field {
+  border-color: #e0b4b4;
+}
+
+.okta-form-input-error {
+  background-color: #fbe9e7;
+  border: 1px solid #e0b4b4;
+  border-radius: 3px;
+  color: #d93934;
+  padding: 4px 8px;
+  margin-top: 5px;
+}
+
+// Error banner at top of form
+.o-form-error-container {
+  margin-bottom: 15px;
+}
+
+.okta-form-infobox-error {
+  background-color: #fbe9e7;
+  border: 1px solid #e0b4b4;
+  border-radius: 3px;
+  color: #d93934;
+  padding: 8px;
+}

@@ -10,7 +10,14 @@
           <form id="form1" class="primary-auth-form o-form o-form-edit-mode" novalidate method="POST" action="/csa/login" data-se="o-form" slot="content">
             <div class="o-form-content o-form-theme clearfix" data-se="o-form-content">
               <h2 class="okta-form-title o-form-head" data-se="o-form-head">Welcome Back!</h2>
-              <div class="o-form-error-container" data-se="o-form-error-container"></div>
+              <div class="o-form-error-container o-form-has-errors" data-se="o-form-error-container">
+                <div>
+                  <div class="okta-form-infobox-error infobox infobox-error" role="alert">
+                    <span class="icon error-16"></span>
+                    <p>We found some errors. Please review the form and make corrections.</p>
+                  </div>
+                </div>
+              </div>
               <div class="o-form-fieldset-container" data-se="o-form-fieldset-container">
                 <div class="o-form-fieldset o-form-label-top margin-btm-5" data-se="o-form-fieldset">
                   <div class="okta-form-label o-form-label" data-se="o-form-label">

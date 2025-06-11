@@ -764,12 +764,13 @@
 
   .okta-infobox-error {
     /* -- Error Infobox Colors -- */
-    /* background-color: #fff; */
-    /* border: 1px solid #ddd; */
+    background-color: #fbe9e7;
+    border: 1px solid #e0b4b4;
+    border-radius: 3px;
 
     &:before {
       /* -- Error Infobox Colors -- */
-      /* background-color: #e34843; */
+      background-color: #e34843;
     }
 
     .error-16:before {
@@ -872,11 +873,16 @@
 
   .okta-form-input-error {
     /* -- Input Fields: error highlight -- */
-    /* color: #d93934; */
+    background-color: #fbe9e7;
+    border: 1px solid #e0b4b4;
+    border-radius: 3px;
+    color: #d93934;
+    padding: 4px 8px;
+    margin-top: 5px;
 
     .error-16-small:before {
       /* -- Input Fields: error icon -- */
-      /* color: #e34843; */
+      color: #e34843;
 
       /* Use the rules below to replace input fields error icon */
       /* content: ''; */
